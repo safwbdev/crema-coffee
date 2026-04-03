@@ -1,0 +1,27 @@
+.cartFabOuter {
+    bottom: 24px;
+    left: 50%;
+    max-width: 400px;
+    position: fixed;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    z-index: 50;
+
+    button {
+        align-items: center;
+        background: linear-gradient(135deg, #C8872A, #E8A84A);
+        border: none;
+        border-radius: 18px;
+        box-shadow: 0 8px 32px rgba(200, 135, 42, 0.4);
+        color: #0F0A06;
+        cursor: pointer;
+        display: flex;
+        font-family: inherit;
+        font-size: 15px;
+        font-weight: 800;
+        justify-content: space-between;
+        padding: 16px 24px;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,122 @@
+.orderModal {
+    position: fixed;
+    inset: 0px;
+    z-index: 200;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    backdrop-filter: blur(6px);
+}
+
+.orderSection {
+    background: #1A1109;
+    border: 1px solid #2E1F0E;
+    border-bottom: none;
+    border-radius: 28px 28px 0 0;
+    padding: 28px 24px 32px;
+    width: 100%;
+    max-width: 440px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.divider {
+    width: 36px;
+    height: 4px;
+    background: #8A6A3A;
+    border-radius: 2px;
+    margin: 0 auto 20px;
+}
+
+.orderTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF8EE;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+.emptyOrder {
+    color: #8A6A3A;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+}
+
+.itemSlot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 14px 0;
+    border-bottom: 1px solid #2E1F0E;
+}
+
+.itemName {
+    color: #FFF8EE;
+    font-weight: 600;
+    font-size: 14px
+}
+
+.itemQty {
+    color: #8A6A3A;
+    font-size: 12px;
+}
+
+.itemDetails {
+    color: #8A6A3A;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+.itemRight {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.itemPrice {
+    color: #E8A84A;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.removeButton {
+    background: none;
+    border: none;
+    color: #C84A2A;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+}
+
+.totalSummary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.totalLabel {
+    color: #8A6A3A;
+    font-size: 13px;
+}
+
+.totalSum {
+    color: #E8A84A;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.placeOrderButton {
+    width: 100%;
+    padding: 16px 0;
+    background: linear-gradient(135deg, #C8872A, #E8A84A);
+    border: none;
+    border-radius: 14px;
+    color: #0F0A06;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}

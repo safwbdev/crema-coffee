@@ -1,0 +1,72 @@
+.orderSuccessScreen {
+    position: fixed;
+    inset: 0;
+    z-index: 300;
+    background: #0F0A06;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 72px;
+    margin-bottom: 16px;
+    animation: spin 1s ease-out;
+}
+
+.mainTitle {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFF8EE;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 8px;
+}
+
+.subTitle {
+    font-size: 14px;
+    color: #8A6A3A;
+    margin-bottom: 6px;
+}
+
+.totalPrice {
+    font-size: 22px;
+    font-weight: 800;
+    color: #E8A84A;
+    margin-bottom: 32px;
+}
+
+.orderList {
+    width: 100%;
+    max-width: 320px;
+    background: #1A1109;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 32px;
+    border: 1px solid #2E1F0E;
+}
+
+.orderDetail {
+    color: #F5E6C8;
+    font-size: 13px;
+    padding: 4px 0;
+}
+
+.etaWaitTime {
+    font-size: 12px;
+    color: #8A6A3A;
+    margin-bottom: 8px;
+}
+
+.orderAgainButton {
+    background: none;
+    border: 1px solid #2E1F0E;
+    color: #8A6A3A;
+    padding: 10px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: inherit;
+}

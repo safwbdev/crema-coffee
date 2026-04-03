@@ -1,0 +1,61 @@
+.coffeeCard {
+    border-radius: 20px;
+    padding: 20px 18px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.logo {
+    font-size: 36px;
+    margin-bottom: 8px
+}
+
+.itemName {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF8EE;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.3px;
+}
+
+.itemTagline {
+    font-size: 11px;
+    color: #C8872A;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 6px;
+    font-family: monospace;
+}
+
+.itemDesc {
+    font-size: 12px;
+    color: #8A6A3A;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.itemBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemPrice {
+    font-size: 18px;
+    font-weight: 800;
+    color: #E8A84A;
+}
+
+.orderButton {
+    background: #C8872A;
+    color: #0F0A06;
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5;
+    transition: opacity 0.2s;
+}

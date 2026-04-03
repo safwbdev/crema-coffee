@@ -1,0 +1,38 @@
+.outerHeader {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgba(15, 10, 6, 0.9);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid #2E1F0E;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .mainTitle {
+        font-size: 20px;
+        font-weight: 700;
+        color: #FFF8EE;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .subTitle {
+        font-size: 11px;
+        color: #8A6A3A;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+}
+
+.cartButton {
+    position: relative;
+    background: rgba(200, 135, 42, 0.15);
+    border: 1px solid #2E1F0E;
+    border-radius: 12px;
+    padding: 10px 14px;
+    cursor: pointer;
+    color: #F5E6C8;
+    font-size: 18px;
+
+}
