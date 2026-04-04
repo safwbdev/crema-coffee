@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './CartFab.module.scss';
+import styles from './CartFAB.module.scss';
 
 function CartFAB({ cart, totalItems, setShowCart }) {
     return (
