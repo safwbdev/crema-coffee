@@ -1,5 +1,5 @@
 import React from 'react'
-import { menu } from '../../assets/menu'
+import { menu } from '../../constants/menu'
 import CoffeeCard from '../CoffeeCard/CoffeeCard'
 import styles from './Menu.module.scss';
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { COLORS } from '../../assets/colours';
+import { COLORS } from '../../constants/colours';
 import styles from './CoffeeCard.module.scss';
 
 function CoffeeCard({ item, onSelect }) {

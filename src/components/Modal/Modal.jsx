@@ -5,9 +5,9 @@ import {
     tempOptions,
     sugarOptions,
 
-} from '../../assets/options';
+} from '../../constants/options';
 import Label from '../Label/Label'
-import { COLORS } from '../../assets/colours';
+import { COLORS } from '../../constants/colours';
 import PillGroup from '../PillGroup/PillGroup';
 import QtyBtn from '../QtyBtn/QtyBtn';
 import styles from './Modal.module.scss';

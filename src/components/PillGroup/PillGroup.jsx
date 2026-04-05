@@ -1,5 +1,5 @@
 import React from 'react'
-import { COLORS } from '../../assets/colours';
+import { COLORS } from '../../constants/colours';
 import styles from './PillGroup.module.scss';
 
 function PillGroup({ options, selected, onSelect }) {
